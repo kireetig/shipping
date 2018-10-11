@@ -1,3 +1,4 @@
-# Airtel Assignment
 
-This is developed using react 16 and webpack 4
+# Airtel-assignment
+airtel assignment developed using ReactJs and Webpack 4
+
