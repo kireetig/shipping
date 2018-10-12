@@ -1,4 +1,3 @@
 
-# Airtel-assignment
-airtel assignment developed using ReactJs, Redux and Webpack 4
-
+# my-react-redux
+react redux set up with redux first routing
