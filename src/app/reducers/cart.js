@@ -15,6 +15,7 @@ export default function (state = initialState, action) {
         case GET_ITEMS:
             return {
                 ...state,
+                cartItems: [],
                 items: action.payload
             };
         default:

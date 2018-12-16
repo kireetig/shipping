@@ -25,6 +25,9 @@ class Root extends React.Component {
         const { router, routes, navigateTo } = this.props;
         return (
             <div>
+                <header>
+                    <h4 className="text-center heading">Shipping App</h4>
+                </header>
                 <Router router={router} routes={routes} navigateTo={navigateTo} />
             </div>
         );

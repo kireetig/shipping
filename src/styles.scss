@@ -5,3 +5,25 @@
 .heading-color{
   color: #ff6c00;
 }
+
+.bg-light-blue{
+  background: lightblue;
+  min-height: 100vh;
+}
+
+.container{
+  position: relative;
+  top: -0.5rem;
+}
+
+.heading {
+  padding: 20px;
+  background: linear-gradient(to right, #00cc00 15%, #3399ff);
+  color: blue;
+}
+
+@media (max-width: 991px) {
+  h5{
+    font-size: 0.8rem;
+  }
+}

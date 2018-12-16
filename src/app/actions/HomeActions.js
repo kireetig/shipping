@@ -20,5 +20,8 @@ export const updateCart = (items, item) => (dispatch) => {
 };
 
 export const sortCart = (items) => (dispatch) => {
-    sortCartPackage(items);
+    dispatch({
+        type: UPDATE_CART,
+        payload: sortCartPackage(items)
+    })
 };
