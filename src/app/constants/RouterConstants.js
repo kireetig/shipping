@@ -4,3 +4,4 @@ export const INITIAL_ROUTE = {
     options: {},
     path: '/',
 };
+export const CART = '/cart';

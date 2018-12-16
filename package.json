@@ -1,5 +1,5 @@
 {
-  "name": "webpack-4",
+  "name": "shipping",
   "version": "1.0.1",
   "description": "Learning setting up react app without boilerplate and using webpack 4",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "Kireeti Ganisetti",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "lodash": "^4.17.11",
     "path-to-regexp": "^2.4.0",
     "prop-types": "^15.6.2",
@@ -18,14 +19,23 @@
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "redux": "^4.0.1",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "@babel/polyfill": "^7.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "copy-webpack-plugin": "^4.5.3",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "node-sass": "^4.9.3",
+    "prop-types": "^15.6.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.27.1",

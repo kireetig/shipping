@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import Router from '../components/Router';
-import Navbar from '../components/Navbar';
+import Router from './/Router';
 
 const propTypes = {
     initRouter: PropTypes.func.isRequired,
@@ -26,7 +25,6 @@ class Root extends React.Component {
         const { router, routes, navigateTo } = this.props;
         return (
             <div>
-                <Navbar />
                 <Router router={router} routes={routes} navigateTo={navigateTo} />
             </div>
         );
