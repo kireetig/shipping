@@ -6,6 +6,7 @@ let total = 0;
 class CartComponent extends React.Component {
 
     componentDidMount() {
+        total = 0;
         if (this.props.cartItems.length > 0) {
             this.props.sortCart(this.props.cartItems);
         }
